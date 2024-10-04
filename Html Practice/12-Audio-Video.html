@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio And Video</title>
+</head>
+<body>
+
+
+    <!-- Audio tag is used to provide audio content in the html page like music or audio stream -->
+     <!-- we can provide more than one source in a single audio tag it can be take precedence as we provide the source data in any audio tag -->
+    <!-- attribute of audio tag are controls:provide controls in audio to ease play , autoplay used to start when page is load,loop used to play audio again and again , muted used when we want to pause the audio when the page is load in the browser, src used to provide the source file of the audio  -->
+    <p>Music are availabe below</p> 
+    <audio controls loop>
+        <source src="./mixkit-sci-fi-interface-robot-click-901.wav" type="audio/wav">
+        <source src="./mixkit-typing-on-a-laptop-keyboard-2531.wav" type="audio/wav">
+        your browser does not support please use another browser
+     </audio>
+
+
+     <!-- video tag is used to add videos in the webpage such as movies clips and other video stream  -->
+      <!-- can contain more source tag used when video is not availabe between the video tag -->
+       <p>Video clips available below</p>
+       <video controls>
+        <source src="./hackingvdo.mp4" type="video/mp4">
+        <source src="./hackingvod2.mp4" type="video/mp4">
+        your browser does not support please change browser
+       </video>
+</body>
+</html>
