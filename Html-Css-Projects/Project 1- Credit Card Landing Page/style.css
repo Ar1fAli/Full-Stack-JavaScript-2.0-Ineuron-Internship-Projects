@@ -1,0 +1,49 @@
+.a{
+    display: inline;
+   
+
+    margin-top: 0px;
+    padding: 1%;
+    margin-right: 3%;
+   
+    background-color: blanchedalmond;
+    text-decoration: none;
+    
+ 
+}
+.a a{
+    text-decoration: none;
+   
+}
+.img{
+    display: inline;
+    flex-direction: row;
+    float: left;
+    margin-right: 25%;
+    margin-left: 2%;
+    margin-top: 2%;
+
+
+
+}
+.nav{
+ 
+   
+    padding: 2% 0%;
+    align-items: center;
+    align-content: center;
+ 
+}
+.b{
+    
+    background-color: aqua;
+  
+    justify-items: end;
+    display: inline-flex;
+    margin-left: 30%;
+  
+}
+body{
+    background-color: aqua;
+    margin: 0;
+}
