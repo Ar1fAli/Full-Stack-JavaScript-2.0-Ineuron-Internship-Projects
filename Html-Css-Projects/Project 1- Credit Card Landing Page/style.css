@@ -258,7 +258,9 @@ span{
 }
 .divst{
     background-color: #1e1f24;
-    border: solid #d7d6d5 ;
+    border-image: linear-gradient(to bottom, #FFFFFF 0%, #1e1f24 100%) 1;
+    border-width: 2px;
+    border-style: solid;
     padding: 2%;
     margin: 3%;
 }
@@ -303,4 +305,23 @@ span{
 .relm{
     width: 100%;
     /* background-color: aqua; */
+}
+.ftr{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    color: #FFFFFF;
+    margin: 5% 2%;
+}
+.ftrb{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+
+}
+.ftrp{
+    padding: 3%;
+    width: 150px;
 }
